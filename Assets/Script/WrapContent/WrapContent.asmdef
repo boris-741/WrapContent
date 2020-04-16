@@ -1,0 +1,15 @@
+{
+    "name": "WrapContent",
+    "references": [
+        "Leopotam.EcsNew",
+        "Leopotam.EcsNew.UnityIntegration"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
