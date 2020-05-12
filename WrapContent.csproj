@@ -67,7 +67,6 @@
      <Compile Include="Assets\Script\WrapContent\Components\BaseWrapScrollComponent.cs" />
      <Compile Include="Assets\Script\WrapContent\EcsExtensions.cs" />
      <Compile Include="Assets\Script\WrapContent\Enums.cs" />
-     <Compile Include="Assets\Script\WrapContent\IBaseRunSystem.cs" />
      <Compile Include="Assets\Script\WrapContent\Singleton.cs" />
      <Compile Include="Assets\Script\WrapContent\Systems\BaseChildSystem.cs" />
      <Compile Include="Assets\Script\WrapContent\Systems\WrapSystem.cs" />

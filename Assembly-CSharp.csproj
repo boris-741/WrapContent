@@ -649,12 +649,12 @@
   <ItemGroup>
     <ProjectReference Include="Leopotam.EcsNew.csproj">
       <Project>{775BB430-5FC0-21B2-0322-5896C108A179}</Project>      <Name>Leopotam.EcsNew</Name>    </ProjectReference>
+    <ProjectReference Include="WrapContent.csproj">
+      <Project>{D38986D2-8F6C-0142-AC3F-A6CA368AB2E4}</Project>      <Name>WrapContent</Name>    </ProjectReference>
     <ProjectReference Include="Leopotam.EcsNew.UnityIntegration.csproj">
       <Project>{97DAD0A1-51EA-51B7-354A-0D052EC77840}</Project>      <Name>Leopotam.EcsNew.UnityIntegration</Name>    </ProjectReference>
     <ProjectReference Include="Leopotam.EcsNew.UnityIntegration.Editor.csproj">
       <Project>{7ED026E8-23A2-7795-D5A8-A1B1561A4E81}</Project>      <Name>Leopotam.EcsNew.UnityIntegration.Editor</Name>    </ProjectReference>
-    <ProjectReference Include="WrapContent.csproj">
-      <Project>{D38986D2-8F6C-0142-AC3F-A6CA368AB2E4}</Project>      <Name>WrapContent</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
