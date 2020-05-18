@@ -11,17 +11,17 @@ thanks leo [GitHub Pages](https://github.com/Leopotam/ecs)
 1. create data structure.
 example:
 
-```
+```C#
 public struct CustomWrapItemData
 {
     public string str;
 }
-
 ```
 
 2. create an inheritor class from MonoBehaviour and override interface IBaseItem functions
 this is for scroll item element
-````
+
+````C#
 public class WrapItem : MonoBehaviour, IBaseItem<CustomWrapItemData>
 {
     public int index{set; get;} 
@@ -35,7 +35,8 @@ public class WrapItem : MonoBehaviour, IBaseItem<CustomWrapItemData>
 
 3. create an inheritor class from BaseWrapContent - this is scroll class
 GetItemSize - return size of scroll item
-```
+
+```C#
 public class CustomWrapContent:  BaseWrapContent<CustomWrapItemData, WrapItem>
 {
     protected override float GetItemSize(CustomWrapItemData data)
