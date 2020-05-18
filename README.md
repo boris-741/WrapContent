@@ -21,7 +21,7 @@ public struct CustomWrapItemData
 2. create an inheritor class from MonoBehaviour and override interface IBaseItem functions
 this is for scroll item element
 
-````C#
+```C#
 public class WrapItem : MonoBehaviour, IBaseItem<CustomWrapItemData>
 {
     public int index{set; get;} 
