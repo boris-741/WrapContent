@@ -1,4 +1,6 @@
+using Leopotam.EcsNew;
+
 namespace WrapContent
 {
-    public struct BaseWrapDataInsertComponent{}
+    public struct BaseWrapDataInsertComponent : IEcsIgnoreInFilter {}
 }
